@@ -4,7 +4,6 @@ import SideMenuWrapper from '../components/UI/Wrappers/SideMenuWrapper';
 import ContentWrapper from '../components/UI/Wrappers/PageContentWrapper';
 import MainMenu from '../components/Menus/MainMenu';
 import SideMenu from '../components/Menus/SideMenu';
-import Footer from '../components/Footer';
 import Modal from '../components/UI/Modal/Modal';
 import PropTypes from 'prop-types';
 
@@ -35,9 +34,6 @@ class MainLayout extends Component {
                                 </Modal> : null
                             }
                         </main>
-                        <footer>
-                            <Footer/>
-                        </footer>
                     </ContentWrapper>
                 </MainWrapper>
             </React.Fragment>
